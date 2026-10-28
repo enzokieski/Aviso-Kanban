@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "settings": {
+    "interval_minutes": 15,
+    "sound_alert": true,
+    "notify_balloon": true,
+    "window_x": null,
+    "window_y": null
+  },
+  "tasks": [
+    {
+      "id": "sample-1",
+      "title": "Definir prioridades do dia",
+      "description": "Organizar demandas mais importantes no topo da lista.",
+      "column": "fazer",
+      "created_at": "08:00",
+      "priority": "alta"
+    },
+    {
+      "id": "sample-2",
+      "title": "Responder e-mails e mensagens",
+      "description": "Alinhar pendências com a equipe.",
+      "column": "fazer",
+      "created_at": "08:15",
+      "priority": "normal"
+    },
+    {
+      "id": "sample-3",
+      "title": "Desenvolver funcionalidade principal",
+      "description": "Foco total na entrega.",
+      "column": "fazendo",
+      "created_at": "08:30",
+      "priority": "alta"
+    },
+    {
+      "id": "sample-4",
+      "title": "Instalar sistema Kanban flutuante",
+      "description": "Configurado para avisar a cada 15 minutos.",
+      "column": "feito",
+      "created_at": "08:45",
+      "priority": "normal"
+    }
+  ]
+}
+
